@@ -1,0 +1,15 @@
+name = BizBalloon Omega
+description = Custom theme for BizBalloon.
+core = 7.x
+base theme = omega
+
+screenshot = screenshot.png
+
+; Styles
+stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/hacks.css
+stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/no-query.css
+
+; Scripts
+scripts[] = js/{{ THEME SANITIZED }}.behaviors.js
