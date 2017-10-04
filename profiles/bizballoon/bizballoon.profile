@@ -22,24 +22,25 @@ function bizballoon_form_install_configure_form_alter(&$form, $form_state) {
   $tasks['bizballoon_default_users'] = array();
   return $tasks;
  }
-
  function bizballoon_default_users() {
-  $users = array(
-      'editor' => 'madhavimalgaonkar9@gmail.com',
-      'manager' => 'madhavimalgaonkar9@gmail.com',
-  );
-  foreach ($users as $name => $email) {
-    $fields = array(
-      'name' => $name,
-      'mail' => $email,
-      'pass' => $name,
-      'status' => 1,
-      'roles' => array(
-         DRUPAL_AUTHENTICATED_RID => 'authenticated user',
-         3 => 'editor',
-         4 => 'manager',
+   $result = db_query("SELECT rid FROM {role} where name like :id",array(':id' => 'administrator'));
+   $admin_rid = $result->fetchField(0);
+   $u_roles = user_roles();
+   unset($u_roles[1]);
+   unset($u_roles[2]);
+   unset($u_roles[$admin_rid]);
+   foreach($u_roles as $key => $value) {
+     $mail = 'test-' . strtolower($value) . '@osseed.com';
+     $new_user = array(
+       'name' => $value,
+       'mail' => $mail,
+       'pass' => strtolower($value),
+       'status' => 1,
+       'init' => $mail,
+       'roles' =>array(
+         $key => $value,
        ),
-    );
-    $account = user_save('', $fields);
-  }
- }
+     );
+     user_save('',$new_user);
+   }
+}

@@ -12,4 +12,4 @@ stylesheets[all][] = css/styles.css
 stylesheets[all][] = css/no-query.css
 
 ; Scripts
-scripts[] = js/{{ THEME SANITIZED }}.behaviors.js
+scripts[] = js/behaviors.js
