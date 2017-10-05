@@ -24,3 +24,5 @@ dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
 dependencies[] = bizballoon_user
+dependencies[] = bizballoon_page
+dependencies[] = bizballoon_taxonomy

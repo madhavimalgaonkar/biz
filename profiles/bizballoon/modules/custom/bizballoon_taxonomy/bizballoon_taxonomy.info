@@ -1,0 +1,11 @@
+name = Bizballoon_taxonomy
+description = Taxonomies for business category,business type and city
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = taxonomy
+features[features_api][] = api:2
+features[taxonomy][] = business_category
+features[taxonomy][] = business_type
+features[taxonomy][] = city

@@ -18,17 +18,16 @@ function bizballoon_form_install_configure_form_alter(&$form, $form_state) {
  * Implements hook_install_tasks().
  */
  function bizballoon_install_tasks(&$install_state) {
-  $tasks = array();
-  $tasks['bizballoon_default_users'] = array();
-  return $tasks;
+   $tasks = array();
+   $tasks['bizballoon_default_users'] = array();
+   return $tasks;
  }
  function bizballoon_default_users() {
-   $result = db_query("SELECT rid FROM {role} where name like :id",array(':id' => 'administrator'));
-   $admin_rid = $result->fetchField(0);
    $u_roles = user_roles();
-   unset($u_roles[1]);
-   unset($u_roles[2]);
-   unset($u_roles[$admin_rid]);
+   $admin_user = variable_get('user_admin_role');
+   unset($u_roles[$admin_user]);
+   unset($u_roles[DRUPAL_ANONYMOUS_RID]);
+   unset($u_roles[DRUPAL_AUTHENTICATED_RID]);
    foreach($u_roles as $key => $value) {
      $mail = 'test-' . strtolower($value) . '@osseed.com';
      $new_user = array(
@@ -43,4 +42,4 @@ function bizballoon_form_install_configure_form_alter(&$form, $form_state) {
      );
      user_save('',$new_user);
    }
-}
+ }

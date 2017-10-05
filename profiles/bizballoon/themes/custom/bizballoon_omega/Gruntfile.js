@@ -1,3 +1,8 @@
+/**
+ * @file
+ * The theme system, which controls the output of Drupal.
+ */
+ 
 'use strict';
 
 module.exports = function (grunt) {

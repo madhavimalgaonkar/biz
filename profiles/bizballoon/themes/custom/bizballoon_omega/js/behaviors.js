@@ -1,3 +1,7 @@
+/**
+ * @file
+ * Javascript file that manages the theme.
+ */
 (function ($) {
 
   /**
