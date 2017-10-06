@@ -118,6 +118,16 @@ function bizballoon_install() {
       'cache' => -1,
     ),
     array(
+      'module' => 'user',
+      'delta' => 'login',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'sidebar_first',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
       'module' => 'system',
       'delta' => 'main',
       'theme' => $admin_theme,
@@ -375,13 +385,13 @@ function bizballoon_install() {
     ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
     ->execute();
 
-  // Create a Home link in the main menu.
-  $item = array(
-    'link_title' => st('Home'),
-    'link_path' => '<front>',
-    'menu_name' => 'main-menu',
-  );
-  menu_link_save($item);
+  // // Create a Home link in the main menu.
+  // $item = array(
+  //   'link_title' => st('Home'),
+  //   'link_path' => '<front>',
+  //   'menu_name' => 'main-menu',
+  // );
+  // menu_link_save($item);
 
   // Update the menu router information.
   menu_rebuild();

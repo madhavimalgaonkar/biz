@@ -22,6 +22,10 @@ function bizballoon_form_install_configure_form_alter(&$form, $form_state) {
    $tasks['bizballoon_default_users'] = array();
    return $tasks;
  }
+
+ /**
+  * Create default users per role.
+  */
  function bizballoon_default_users() {
    $u_roles = user_roles();
    $admin_user = variable_get('user_admin_role');
