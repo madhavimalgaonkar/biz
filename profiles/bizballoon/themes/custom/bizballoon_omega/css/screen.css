@@ -1502,11 +1502,11 @@ body {
 /* line 10, ../sass/screen.scss */
 .site-logo, img {
   height: auto;
-  max-width: 100%;
-  background-color: black; }
+  max-width: 100%; }
 
-/* line 15, ../sass/screen.scss */
+/* line 14, ../sass/screen.scss */
 .l-header {
+  background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/footer.png");
   background-color: black; }
 
 /* line 20, ../sass/screen.scss */
@@ -1585,54 +1585,45 @@ body {
   border-radius: 3px;
   font-family: 'Exo 2'; }
 
-/* line 154, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 .panels-flexible-column-first .panel-pane .user-login-form .clearfix-login a {
   color: #E74C3C;
   text-decoration: none;
   line-height: 5; }
 
-/* line 165, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 .panels-flexible-column-first .panel-pane .pane-title {
   font-size: 30px;
   line-height: 3; }
 
-/* line 174, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 .panels-flexible-column-last .pane-formblock-user-register .pane-title {
   font-size: 30px;
   line-height: 3; }
 
-/* line 186, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 .panels-flexible-column-first .panel-pane .hybridauth-widget-wrapper .hybridauth-widget .hybridauth-widget-provider .facebook {
+  opacity: 1;
   width: 160px !important;
   background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/fb.png"); }
 
-/* line 201, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 .panels-flexible-column-first .panel-pane .hybridauth-widget-wrapper .hybridauth-widget .hybridauth-widget-provider .google {
   opacity: 1;
   width: 160px !important;
   background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/gplus.png"); }
 
-/* line 212, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 .panels-flexible-column-first {
   border-right: 2px solid orange; }
 
-/* line 219, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .l-header .l-region .menu .leaf {
   list-style-image: none; }
 
-/* line 226, ../sass/screen.scss */
-.fa-plus {
-  color: white;
-  text-decoration: none;
-  border: 1px solid white;
-  display: grid;
-  text-align: center; }
-
-/* line 233, ../sass/screen.scss */
-.fa-list {
-  color: white;
-  text-decoration: none;
-  display: grid;
-  text-align: center; }
+/* line 219, ../sass/screen.scss */
+footer.l-footer-wrapper {
+  background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/footer.png");
+  background-color: black; }
 
 /*# sourceMappingURL=screen.css.map */
