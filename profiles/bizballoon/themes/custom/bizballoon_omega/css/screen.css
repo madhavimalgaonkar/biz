@@ -1621,9 +1621,35 @@ body {
 .l-header .l-region .menu .leaf {
   list-style-image: none; }
 
+/* line 205, ../sass/screen.scss */
+.fa-plus {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  display: grid;
+  text-align: center; }
+
+/* line 212, ../sass/screen.scss */
+.fa-list {
+  color: white;
+  text-decoration: none;
+  display: grid;
+  text-align: center; }
+
 /* line 219, ../sass/screen.scss */
 footer.l-footer-wrapper {
   background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/footer.png");
-  background-color: black; }
+  background-color: black;
+  line-height: 5; }
+
+/* line 228, ../sass/screen.scss */
+.l-footer-wrapper .l-region.l-region--footer.region--debug.region--debug--footer .menu .leaf {
+  list-style-image: none;
+  list-style-type: none; }
+
+/* line 239, ../sass/screen.scss */
+.l-footer-wrapper .l-region .block ul.menu,
+.l-footer-wrapper .l-region .block ul.social-media-links {
+  display: flex; }
 
 /*# sourceMappingURL=screen.css.map */
