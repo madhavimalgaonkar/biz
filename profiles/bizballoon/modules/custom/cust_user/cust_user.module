@@ -1,0 +1,24 @@
+<?php
+/**
+ * @file
+ * Modifications in user registration form.
+ */
+
+/**
+ * Implements hook_form_alter().
+ */
+ function cust_user_form_alter(&$form, &$form_state, $form_id) {
+   if($form_id == 'user_register_form') {
+     // Change email field
+     $form['account']['mail']['#title'] = t('Email');
+     $form['account']['mail']['#description'] = FALSE;
+     $form['account']['mail']['#weight'] = 3;
+     $form['actions']['submit']['#value'] = t('CREATE NEW ACCOUNT');
+ }
+ }
+ function cust_user_form_user_login_block_alter(&$form, &$form_state, $form_id) {
+   $markup = l(t('Request new password'), 'user/password');
+   $markup = '<div class="clearfix-login">' . $markup . '</div>';
+   $form['links']['#markup'] = $markup;
+   $form['actions']['submit']['#value'] = t('LOG IN');
+}

@@ -6,6 +6,7 @@ base theme = omega
 screenshot = screenshot.png
 
 ; Regions
+regions[branding]       = Branding
 regions[header]         = Header
 regions[navigation]     = Navigation
 regions[highlighted]    = Highlighted
@@ -16,7 +17,7 @@ regions[sidebar_second] = Second Sidebar
 regions[footer]         = Footer
 
 ; Settings
-settings[toggle_logo] = 0
+settings[toggle_logo] = 1
 settings[toggle_name] = 0
 settings[toggle_slogan] = 0
 settings[toggle_node_user_picture] = 1

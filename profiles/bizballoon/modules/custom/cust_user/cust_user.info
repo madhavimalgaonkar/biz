@@ -1,0 +1,10 @@
+name = Custom User
+description = Manages the user registration and login system.
+package = Custom
+version = VERSION
+core = 7.x
+files[] = user.module
+files[] = user.test
+
+configure = admin/config/people
+stylesheets[all][] = user.css
