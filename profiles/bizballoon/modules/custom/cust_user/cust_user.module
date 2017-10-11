@@ -18,11 +18,24 @@
  }
 
  /**
-  * Implements hook_form_alter().
+  * Implements hook_form_user_login_block_alter().
   */
  function cust_user_form_user_login_block_alter(&$form, &$form_state, $form_id) {
    $markup = l(t('Request new password'), 'user/password');
    $markup = '<div class="clearfix-login">' . $markup . '</div>';
    $form['links']['#markup'] = $markup;
    $form['actions']['submit']['#value'] = t('LOG IN');
+}
+
+/**
+ * Implements hook_form_views_exposed_form_alter().
+ */
+function cust_user_form_views_exposed_form_alter(&$form, &$form_state) {
+  $form['tid']['#prefix'] = '<div class="mysearch">';
+   $form['tid']['#suffix'] = '</div>';
+   $form['tid_1']['#prefix'] = '<div class="city">';
+   $form['tid_1']['#suffix'] = '</div>';
+   $form['tid']['#size'] = 30;
+   $form['tid_1']['#size'] = 30;
+
 }

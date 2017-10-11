@@ -7,42 +7,48 @@
 body {
   font-family: 'Exo 2';
 }
-.site-logo,img {
-height: auto;
-max-width: 100%;
-}
+
 .l-header {
   background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/footer.png");
   background-color: black;
+  border-bottom: 3px solid #fc9400;
 }
+
 .l-header {
   .l-region {
     .menu {
       .leaf {
         list-style-image: none;
+        list-style-type: none;
+        display: inline-block;
+        padding: 0 0;
       }
     }
   }
 }
-
-.fa-plus {
-    color: white;
-    text-decoration: none;
-    border: 1px solid white;
-    display: grid;
-    text-align: center;
+#block-menu-menu-header-links {
+  float: left;
 }
+
+.l-region.l-region--header{
+    width: 25%;
+    padding: 0;
+}
+
+.fa-plus,
 .fa-list {
     color: white;
     text-decoration: none;
     display: grid;
     text-align: center;
+    border-left: 1px solid #565656;
+    padding: 12px;
 }
 
 footer.l-footer-wrapper {
   background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/footer.png");
   background-color: black;
-  line-height: 5;
+  padding: 40px 0;
 }
 
 .l-footer-wrapper {
@@ -55,8 +61,6 @@ footer.l-footer-wrapper {
     }
   }
 }
-
-
 
 .l-footer-wrapper {
   .l-region {
@@ -75,6 +79,9 @@ footer.l-footer-wrapper {
       .menu {
         .leaf a {
           padding: 35px;
+          text-decoration: none;
+          color: #ffffff;
+          font-size: 14px;
         }
       }
     }
@@ -88,7 +95,7 @@ footer.l-footer-wrapper {
       li.googleplus,
       li.twitter,
       li.youtube_channel{
-        padding: 35px;
+        padding: 25px;
       }
     }
   }
@@ -96,13 +103,57 @@ footer.l-footer-wrapper {
 
 .l-footer-wrapper {
   .l-region {
-    .block,
-    .block__content {
-      width: 66%;
-      margin: 0 auto;
+    width: 49%;
+  }
+}
+
+#block-social-media-links-social-media-links {
+    padding: 0 217px;
+}
+
+.l-header {
+  .l-constrained {
+    .l-branding.site-branding {
+      .site-branding__logo img {
+        width: 55%;
+        padding: 0px 32px;
+        margin-top: 15px;
+      }
     }
   }
 }
+
+.mysearch {
+  width: 50%;
+  float: left;
+}
+.city {
+  width: 50%;
+  float: right;
+}
+
+div#edit-tid-1-wrapper {
+    margin-left: -141px;
+}
+
+input#edit-submit-search {
+    margin-left: 113px;
+    border: none;
+    padding: 0px 10px;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #0078fa;
+    color: white;
+    height: 33px;
+    margin-top: 0px;
+}
+
+.l-region.l-region--navigation.region--debug.region--debug--navigation {
+    margin-left: 235px;
+    width: 55%;
+}
+
 .not-logged-in {
   .l-content{
     .panels-flexible-column-last,
