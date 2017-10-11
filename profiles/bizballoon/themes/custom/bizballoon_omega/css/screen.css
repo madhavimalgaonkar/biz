@@ -1509,13 +1509,64 @@ body {
   background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/footer.png");
   background-color: black; }
 
-/* line 20, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
+.l-header .l-region .menu .leaf {
+  list-style-image: none; }
+
+/* line 28, ../sass/screen.scss */
+.fa-plus {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  display: grid;
+  text-align: center; }
+
+/* line 35, ../sass/screen.scss */
+.fa-list {
+  color: white;
+  text-decoration: none;
+  display: grid;
+  text-align: center; }
+
+/* line 42, ../sass/screen.scss */
+footer.l-footer-wrapper {
+  background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/footer.png");
+  background-color: black;
+  line-height: 5; }
+
+/* line 51, ../sass/screen.scss */
+.l-footer-wrapper .l-region .menu .leaf {
+  list-style-image: none;
+  list-style-type: none; }
+
+/* line 64, ../sass/screen.scss */
+.l-footer-wrapper .l-region .block ul.menu,
+.l-footer-wrapper .l-region .block ul.social-media-links {
+  display: flex; }
+
+/* line 76, ../sass/screen.scss */
+.l-footer-wrapper .l-region .block .menu .leaf a {
+  padding: 35px; }
+
+/* line 87, ../sass/screen.scss */
+.l-footer-wrapper .l-region .block li.facebook,
+.l-footer-wrapper .l-region .block li.googleplus,
+.l-footer-wrapper .l-region .block li.twitter,
+.l-footer-wrapper .l-region .block li.youtube_channel {
+  padding: 35px; }
+
+/* line 99, ../sass/screen.scss */
+.l-footer-wrapper .l-region .block,
+.l-footer-wrapper .l-region .block__content {
+  width: 66%;
+  margin: 0 auto; }
+
+/* line 108, ../sass/screen.scss */
 .not-logged-in .l-content .panels-flexible-column-last,
 .not-logged-in .l-content .panels-flexible-column-first {
   text-align: center; }
-
-/* line 28, ../sass/screen.scss */
-.user-login-form .form-item .form-text {
+/* line 116, ../sass/screen.scss */
+.not-logged-in .user-login-form .form-item .form-text {
   background-color: #fcfcfc;
   border: 2px solid #eaeaea;
   color: #999999;
@@ -1524,12 +1575,11 @@ body {
   min-height: 50px;
   box-shadow: none;
   border-radius: 3px; }
-
-/* line 45, ../sass/screen.scss */
-.user-register-form .field-type-text .form-item .text-full,
-.user-register-form .field-type-text .form-item .form-text,
-.user-register-form .form-wrapper .form-item .text-full,
-.user-register-form .form-wrapper .form-item .form-text {
+/* line 133, ../sass/screen.scss */
+.not-logged-in .user-register-form .field-type-text .form-item .text-full,
+.not-logged-in .user-register-form .field-type-text .form-item .form-text,
+.not-logged-in .user-register-form .form-wrapper .form-item .text-full,
+.not-logged-in .user-register-form .form-wrapper .form-item .form-text {
   background-color: #fcfcfc;
   border: 2px solid #eaeaea;
   color: #999999;
@@ -1538,9 +1588,8 @@ body {
   min-height: 50px;
   box-shadow: none;
   border-radius: 3px; }
-
-/* line 61, ../sass/screen.scss */
-.field-type-list-boolean .form-item {
+/* line 149, ../sass/screen.scss */
+.not-logged-in .field-type-list-boolean .form-item {
   background-color: #fcfcfc;
   border: 2px solid #eaeaea;
   color: #999999;
@@ -1550,15 +1599,13 @@ body {
   min-height: 50px;
   box-shadow: none;
   border-radius: 3px; }
-
-/* line 77, ../sass/screen.scss */
-.panels-flexible-column-last .panel-pane .user-register-form .captcha {
+/* line 165, ../sass/screen.scss */
+.not-logged-in .panels-flexible-column-last .panel-pane .user-register-form .captcha {
   padding: 2px;
   width: 100%;
   border: 2px solid #eaeaea; }
-
-/* line 90, ../sass/screen.scss */
-.panels-flexible-column-last .panel-pane .user-register-form .captcha .form-text {
+/* line 178, ../sass/screen.scss */
+.not-logged-in .panels-flexible-column-last .panel-pane .user-register-form .captcha .form-text {
   background-color: #fcfcfc;
   border: 2px solid #eaeaea;
   color: #999999;
@@ -1567,12 +1614,11 @@ body {
   min-height: 50px;
   box-shadow: none;
   border-radius: 3px; }
-
-/* line 111, ../sass/screen.scss */
-.panels-flexible-column-last .panel-pane .user-register-form .form-actions .form-submit,
-.panels-flexible-column-last .panel-pane .user-login-form .form-actions .form-submit,
-.panels-flexible-column-first .panel-pane .user-register-form .form-actions .form-submit,
-.panels-flexible-column-first .panel-pane .user-login-form .form-actions .form-submit {
+/* line 199, ../sass/screen.scss */
+.not-logged-in .panels-flexible-column-last .panel-pane .user-register-form .form-actions .form-submit,
+.not-logged-in .panels-flexible-column-last .panel-pane .user-login-form .form-actions .form-submit,
+.not-logged-in .panels-flexible-column-first .panel-pane .user-register-form .form-actions .form-submit,
+.not-logged-in .panels-flexible-column-first .panel-pane .user-login-form .form-actions .form-submit {
   border: none;
   color: #444;
   padding: 18px 28px;
@@ -1584,72 +1630,31 @@ body {
   color: white;
   border-radius: 3px;
   font-family: 'Exo 2'; }
-
-/* line 132, ../sass/screen.scss */
-.panels-flexible-column-first .panel-pane .user-login-form .clearfix-login a {
+/* line 220, ../sass/screen.scss */
+.not-logged-in .panels-flexible-column-first .panel-pane .user-login-form .clearfix-login a {
   color: #E74C3C;
   text-decoration: none;
   line-height: 5; }
-
-/* line 143, ../sass/screen.scss */
-.panels-flexible-column-first .panel-pane .pane-title {
+/* line 231, ../sass/screen.scss */
+.not-logged-in .panels-flexible-column-first .panel-pane .pane-title {
   font-size: 30px;
   line-height: 3; }
-
-/* line 152, ../sass/screen.scss */
-.panels-flexible-column-last .pane-formblock-user-register .pane-title {
+/* line 240, ../sass/screen.scss */
+.not-logged-in .panels-flexible-column-last .pane-formblock-user-register .pane-title {
   font-size: 30px;
   line-height: 3; }
-
-/* line 164, ../sass/screen.scss */
-.panels-flexible-column-first .panel-pane .hybridauth-widget-wrapper .hybridauth-widget .hybridauth-widget-provider .facebook {
+/* line 252, ../sass/screen.scss */
+.not-logged-in .panels-flexible-column-first .panel-pane .hybridauth-widget-wrapper .hybridauth-widget .hybridauth-widget-provider .facebook {
   opacity: 1;
   width: 160px !important;
   background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/fb.png"); }
-
-/* line 180, ../sass/screen.scss */
-.panels-flexible-column-first .panel-pane .hybridauth-widget-wrapper .hybridauth-widget .hybridauth-widget-provider .google {
+/* line 268, ../sass/screen.scss */
+.not-logged-in .panels-flexible-column-first .panel-pane .hybridauth-widget-wrapper .hybridauth-widget .hybridauth-widget-provider .google {
   opacity: 1;
   width: 160px !important;
   background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/gplus.png"); }
-
-/* line 191, ../sass/screen.scss */
-.panels-flexible-column-first {
+/* line 279, ../sass/screen.scss */
+.not-logged-in .panels-flexible-column-first {
   border-right: 2px solid orange; }
-
-/* line 198, ../sass/screen.scss */
-.l-header .l-region .menu .leaf {
-  list-style-image: none; }
-
-/* line 205, ../sass/screen.scss */
-.fa-plus {
-  color: white;
-  text-decoration: none;
-  border: 1px solid white;
-  display: grid;
-  text-align: center; }
-
-/* line 212, ../sass/screen.scss */
-.fa-list {
-  color: white;
-  text-decoration: none;
-  display: grid;
-  text-align: center; }
-
-/* line 219, ../sass/screen.scss */
-footer.l-footer-wrapper {
-  background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/footer.png");
-  background-color: black;
-  line-height: 5; }
-
-/* line 228, ../sass/screen.scss */
-.l-footer-wrapper .l-region.l-region--footer.region--debug.region--debug--footer .menu .leaf {
-  list-style-image: none;
-  list-style-type: none; }
-
-/* line 239, ../sass/screen.scss */
-.l-footer-wrapper .l-region .block ul.menu,
-.l-footer-wrapper .l-region .block ul.social-media-links {
-  display: flex; }
 
 /*# sourceMappingURL=screen.css.map */

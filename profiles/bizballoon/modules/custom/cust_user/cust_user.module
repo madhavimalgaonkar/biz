@@ -16,6 +16,10 @@
      $form['actions']['submit']['#value'] = t('CREATE NEW ACCOUNT');
  }
  }
+
+ /**
+  * Implements hook_form_alter().
+  */
  function cust_user_form_user_login_block_alter(&$form, &$form_state, $form_id) {
    $markup = l(t('Request new password'), 'user/password');
    $markup = '<div class="clearfix-login">' . $markup . '</div>';

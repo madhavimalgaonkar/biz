@@ -15,6 +15,94 @@ max-width: 100%;
   background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/footer.png");
   background-color: black;
 }
+.l-header {
+  .l-region {
+    .menu {
+      .leaf {
+        list-style-image: none;
+      }
+    }
+  }
+}
+
+.fa-plus {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    display: grid;
+    text-align: center;
+}
+.fa-list {
+    color: white;
+    text-decoration: none;
+    display: grid;
+    text-align: center;
+}
+
+footer.l-footer-wrapper {
+  background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/footer.png");
+  background-color: black;
+  line-height: 5;
+}
+
+.l-footer-wrapper {
+  .l-region {
+    .menu {
+      .leaf {
+        list-style-image: none;
+        list-style-type: none;
+      }
+    }
+  }
+}
+
+
+
+.l-footer-wrapper {
+  .l-region {
+    .block {
+      ul.menu,
+      ul.social-media-links {
+        display: flex;
+      }
+    }
+  }
+}
+
+.l-footer-wrapper {
+  .l-region {
+    .block {
+      .menu {
+        .leaf a {
+          padding: 35px;
+        }
+      }
+    }
+  }
+}
+
+.l-footer-wrapper {
+  .l-region {
+    .block {
+      li.facebook,
+      li.googleplus,
+      li.twitter,
+      li.youtube_channel{
+        padding: 35px;
+      }
+    }
+  }
+}
+
+.l-footer-wrapper {
+  .l-region {
+    .block,
+    .block__content {
+      width: 66%;
+      margin: 0 auto;
+    }
+  }
+}
 .not-logged-in {
   .l-content{
     .panels-flexible-column-last,
@@ -22,7 +110,7 @@ max-width: 100%;
       text-align: center;
     }
     }
-}
+
 .user-login-form {
   .form-item {
     .form-text {
@@ -192,55 +280,4 @@ max-width: 100%;
   border-right: 2px solid orange;
 }
 
-.l-header {
-  .l-region {
-    .menu {
-      .leaf {
-        list-style-image: none;
-      }
-    }
-  }
-}
-
-.fa-plus {
-    color: white;
-    text-decoration: none;
-    border: 1px solid white;
-    display: grid;
-    text-align: center;
-}
-.fa-list {
-    color: white;
-    text-decoration: none;
-    display: grid;
-    text-align: center;
-}
-
-footer.l-footer-wrapper {
-  background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/footer.png");
-  background-color: black;
-  line-height: 5;
-}
-
-.l-footer-wrapper {
-  .l-region.l-region--footer.region--debug.region--debug--footer {
-    .menu {
-      .leaf {
-        list-style-image: none;
-        list-style-type: none;
-        width: 220px;
-      }
-    }
-  }
-}
-
-.l-footer-wrapper {
-  .l-region {
-    .block {
-      ul.menu,
-      ul.social-media-links {
-        display: flex;
-      }
-    }
-  }
 }
