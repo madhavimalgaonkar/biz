@@ -1,0 +1,5 @@
+name = BizBalloon Updates
+description = Push incremental updates to site post launch.
+core = 7.x
+package = BizBalloon
+version = 7.x-1.0

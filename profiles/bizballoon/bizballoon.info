@@ -26,3 +26,4 @@ dependencies[] = rdf
 dependencies[] = bizballoon_user
 dependencies[] = bizballoon_page
 dependencies[] = bizballoon_taxonomy
+dependencies[] = bizballoon_updates
