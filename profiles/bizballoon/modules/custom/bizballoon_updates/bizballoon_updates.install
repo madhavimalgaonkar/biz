@@ -3,3 +3,11 @@
  * @file
  * Install file for update hooks and install task.
  */
+
+ /**
+  * Revert main site search view and enable bizballoon_theme module
+  */
+function bizballoon_updates_update_7001() {
+  features_revert(array('bizballoon_views' => array('views_view')));
+  module_enable(array('bizballoon_theme'));
+}
