@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the bizballon theme feature.
+ */
+
+include_once 'bizballon_theme.features.inc';
