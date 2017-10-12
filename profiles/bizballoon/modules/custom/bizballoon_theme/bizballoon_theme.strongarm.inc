@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * bizballon_theme.strongarm.inc
+ * bizballoon_theme.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function bizballon_theme_strongarm() {
+function bizballoon_theme_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();

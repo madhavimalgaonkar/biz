@@ -4,4 +4,4 @@
  * Code for the bizballon theme feature.
  */
 
-include_once 'bizballon_theme.features.inc';
+include_once 'bizballoon_theme.features.inc';
