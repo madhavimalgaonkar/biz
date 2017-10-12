@@ -1,0 +1,6 @@
+name = BizBalloon
+description = Basic module which helps to send emails using samtp and html mail.
+core = 7.x
+vesion = 7.x-1.0
+dependencies[] = htmlmail
+files[] = HTMLMailSystem__SmtpMailSystem.mail.inc

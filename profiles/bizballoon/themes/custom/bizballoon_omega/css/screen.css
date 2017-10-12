@@ -1600,41 +1600,67 @@ input#edit-submit-search {
   background-color: #0078fa;
   color: white;
   height: 33px;
-  margin-top: 0px; }
+  margin-top: 0px;
+  margin-top: 5px; }
 
-/* line 152, ../sass/screen.scss */
-.l-region.l-region--navigation.region--debug.region--debug--navigation {
+/* line 153, ../sass/screen.scss */
+.l-region.l-region--navigation {
   margin-left: 235px;
   width: 55%; }
 
-/* line 159, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
+.form-text {
+  background-color: #fcfcfc;
+  border: 2px solid #eaeaea;
+  color: #999999;
+  padding: 2px;
+  width: 100%;
+  min-height: 50px;
+  box-shadow: none;
+  border-radius: 3px; }
+
+/* line 169, ../sass/screen.scss */
+.form-item label, .form-actions label {
+  display: block;
+  font-weight: normal; }
+
+/* line 173, ../sass/screen.scss */
+input#edit-tid,
+input#edit-tid-1 {
+  font-size: 14px;
+  padding: 6px 0;
+  min-height: auto;
+  width: 187%;
+  border-radius: 0px;
+  box-sizing: none;
+  padding-left: 27px;
+  margin-top: 5px; }
+
+/* line 185, ../sass/screen.scss */
+input#edit-tid {
+  background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/search.png");
+  background-repeat: no-repeat;
+  background-position: 0% -1px; }
+
+/* line 190, ../sass/screen.scss */
+input#edit-tid-1 {
+  background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/location.png");
+  background-repeat: no-repeat;
+  background-position: 0% -1px; }
+
+/* line 195, ../sass/screen.scss */
+.admin-menu-toolbar-category.expandable {
+  display: none; }
+
+/* line 199, ../sass/screen.scss */
+.breadcrumbs {
+  display: none; }
+
+/* line 205, ../sass/screen.scss */
 .not-logged-in .l-content .panels-flexible-column-last,
 .not-logged-in .l-content .panels-flexible-column-first {
   text-align: center; }
-/* line 167, ../sass/screen.scss */
-.not-logged-in .user-login-form .form-item .form-text {
-  background-color: #fcfcfc;
-  border: 2px solid #eaeaea;
-  color: #999999;
-  padding: 2px;
-  width: 100%;
-  min-height: 50px;
-  box-shadow: none;
-  border-radius: 3px; }
-/* line 184, ../sass/screen.scss */
-.not-logged-in .user-register-form .field-type-text .form-item .text-full,
-.not-logged-in .user-register-form .field-type-text .form-item .form-text,
-.not-logged-in .user-register-form .form-wrapper .form-item .text-full,
-.not-logged-in .user-register-form .form-wrapper .form-item .form-text {
-  background-color: #fcfcfc;
-  border: 2px solid #eaeaea;
-  color: #999999;
-  padding: 2px;
-  width: 100%;
-  min-height: 50px;
-  box-shadow: none;
-  border-radius: 3px; }
-/* line 200, ../sass/screen.scss */
+/* line 213, ../sass/screen.scss */
 .not-logged-in .field-type-list-boolean .form-item {
   background-color: #fcfcfc;
   border: 2px solid #eaeaea;
@@ -1645,12 +1671,12 @@ input#edit-submit-search {
   min-height: 50px;
   box-shadow: none;
   border-radius: 3px; }
-/* line 216, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .not-logged-in .panels-flexible-column-last .panel-pane .user-register-form .captcha {
   padding: 2px;
   width: 100%;
   border: 2px solid #eaeaea; }
-/* line 229, ../sass/screen.scss */
+/* line 242, ../sass/screen.scss */
 .not-logged-in .panels-flexible-column-last .panel-pane .user-register-form .captcha .form-text {
   background-color: #fcfcfc;
   border: 2px solid #eaeaea;
@@ -1660,7 +1686,7 @@ input#edit-submit-search {
   min-height: 50px;
   box-shadow: none;
   border-radius: 3px; }
-/* line 250, ../sass/screen.scss */
+/* line 263, ../sass/screen.scss */
 .not-logged-in .panels-flexible-column-last .panel-pane .user-register-form .form-actions .form-submit,
 .not-logged-in .panels-flexible-column-last .panel-pane .user-login-form .form-actions .form-submit,
 .not-logged-in .panels-flexible-column-first .panel-pane .user-register-form .form-actions .form-submit,
@@ -1676,30 +1702,30 @@ input#edit-submit-search {
   color: white;
   border-radius: 3px;
   font-family: 'Exo 2'; }
-/* line 271, ../sass/screen.scss */
+/* line 284, ../sass/screen.scss */
 .not-logged-in .panels-flexible-column-first .panel-pane .user-login-form .clearfix-login a {
   color: #E74C3C;
   text-decoration: none;
   line-height: 5; }
-/* line 282, ../sass/screen.scss */
+/* line 295, ../sass/screen.scss */
 .not-logged-in .panels-flexible-column-first .panel-pane .pane-title {
   font-size: 30px;
   line-height: 3; }
-/* line 291, ../sass/screen.scss */
+/* line 304, ../sass/screen.scss */
 .not-logged-in .panels-flexible-column-last .pane-formblock-user-register .pane-title {
   font-size: 30px;
   line-height: 3; }
-/* line 303, ../sass/screen.scss */
+/* line 316, ../sass/screen.scss */
 .not-logged-in .panels-flexible-column-first .panel-pane .hybridauth-widget-wrapper .hybridauth-widget .hybridauth-widget-provider .facebook {
   opacity: 1;
   width: 160px !important;
   background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/fb.png"); }
-/* line 319, ../sass/screen.scss */
+/* line 332, ../sass/screen.scss */
 .not-logged-in .panels-flexible-column-first .panel-pane .hybridauth-widget-wrapper .hybridauth-widget .hybridauth-widget-provider .google {
   opacity: 1;
   width: 160px !important;
   background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/gplus.png"); }
-/* line 330, ../sass/screen.scss */
+/* line 343, ../sass/screen.scss */
 .not-logged-in .panels-flexible-column-first {
   border-right: 2px solid orange; }
 

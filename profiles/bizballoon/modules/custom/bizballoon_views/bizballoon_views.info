@@ -1,0 +1,11 @@
+name = BizBalloon Views
+description = Intigrates search and advanced views
+core = 7.x
+package = BizBalloon
+version = 7.x-1.0
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = main_search
+features[views_view][] = search
+features_exclude[dependencies][ctools] = ctools

@@ -147,11 +147,57 @@ input#edit-submit-search {
     color: white;
     height: 33px;
     margin-top: 0px;
+    margin-top: 5px;
 }
 
-.l-region.l-region--navigation.region--debug.region--debug--navigation {
+.l-region.l-region--navigation {
     margin-left: 235px;
     width: 55%;
+}
+
+.form-text {
+  background-color: #fcfcfc;
+border: 2px solid #eaeaea;
+color: #999999;
+padding: 2px;
+width: 100%;
+min-height: 50px;
+box-shadow: none;
+border-radius: 3px;
+}
+
+.form-item label, .form-actions label {
+    display: block;
+    font-weight: normal;
+}
+input#edit-tid,
+input#edit-tid-1 {
+    font-size: 14px;
+    padding: 6px 0;
+    min-height: auto;
+    width: 187%;
+    border-radius: 0px;
+    box-sizing: none;
+    padding-left: 27px;
+    margin-top: 5px;
+}
+
+input#edit-tid {
+  background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/search.png");
+  background-repeat: no-repeat;
+  background-position: 0% -1px;
+}
+input#edit-tid-1 {
+  background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/location.png");
+  background-repeat: no-repeat;
+  background-position: 0% -1px;
+}
+.admin-menu-toolbar-category.expandable {
+    display: none;
+}
+
+.breadcrumbs {
+  display: none;
 }
 
 .not-logged-in {
@@ -162,39 +208,6 @@ input#edit-submit-search {
     }
     }
 
-.user-login-form {
-  .form-item {
-    .form-text {
-      background-color: #fcfcfc;
-      border: 2px solid #eaeaea;
-      color: #999999;
-      padding: 2px;
-      width: 100%;
-      min-height: 50px;
-      box-shadow: none;
-      border-radius: 3px;
-    }
-  }
-}
-
-.user-register-form {
-  .field-type-text,
-  .form-wrapper {
-    .form-item {
-      .text-full,
-      .form-text, {
-        background-color: #fcfcfc;
-        border: 2px solid #eaeaea;
-        color: #999999;
-        padding: 2px;
-        width: 100%;
-        min-height: 50px;
-        box-shadow: none;
-        border-radius: 3px;
-      }
-    }
-  }
-}
 
 .field-type-list-boolean {
   .form-item {

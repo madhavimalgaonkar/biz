@@ -39,3 +39,13 @@ function cust_user_form_views_exposed_form_alter(&$form, &$form_state) {
    $form['tid_1']['#size'] = 30;
 
 }
+
+/**
+ * Implements hook_page_alter().
+ */
+function cust_user_page_alter(&$page) {
+  if (current_path() == 'http://local.bizballoon.com/homepage') {
+    dsm($page);
+    unset($page['header']);
+  }
+}

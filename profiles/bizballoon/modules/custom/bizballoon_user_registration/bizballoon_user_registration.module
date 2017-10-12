@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the BizBalloon User Registration feature.
+ */
+
+include_once 'bizballoon_user_registration.features.inc';
