@@ -31,3 +31,4 @@ dependencies[] = bizballoon_updates
 dependencies[] = bizballoon_user_registration
 dependencies[] = bizballoon_views
 dependencies[] = bizballoon_webform
+dependencies[] = bizballoon_mail_feat

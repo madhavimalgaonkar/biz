@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the BizBalloon mail feature.
+ */
+
+include_once 'bizballoon_mail_feat.features.inc';
