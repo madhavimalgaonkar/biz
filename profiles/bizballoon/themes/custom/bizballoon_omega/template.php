@@ -16,3 +16,11 @@
   drupal_add_css('https://fonts.googleapis.com/css?family=Exo+2',array(
     'type' => 'external'));
  }
+
+ function bizballoon_omega_preprocess_breadcrumb(&$variables) {
+   array_pop($variables['breadcrumb']);
+ }
+
+ function bizballoon_omega_status_messages($variables) {
+   return purr_messages_status_messages($variables);
+ }
