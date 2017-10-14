@@ -68,7 +68,7 @@ function bizballoon_install() {
   $full_html_format = (object) $full_html_format;
   filter_format_save($full_html_format);
 
-  // Enable some custom theme bizballoon omega.
+  // Enable custom theme bizballoon omega.
   $enable = array(
     'theme_default' => 'bizballoon_omega',
     'admin_theme' => 'seven',

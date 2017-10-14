@@ -52,6 +52,92 @@ body {
     padding: 12px;
 }
 
+.logged-in {
+  .node-business_page-form {
+      .form-text {
+        padding: 2px;
+        border: 1px solid #ccc;
+        border-top-color: #999;
+        background: #fff;
+        color: #333;
+        background-color: #fcfcfc;
+        border: 2px solid #eaeaea;
+        color: #999999;
+        width: 100%;
+        min-height: 50px;
+        box-shadow: none;
+        border-radius: 3px;
+      }
+  }
+}
+
+fieldset#edit-field-images-und,
+div#edit-field-logo-und-0-ajax-wrapper {
+    border: 1px solid #EAEAEA;
+}
+
+select#edit-field-business-type-und,
+select#edit-field-category-und-hierarchical-select-selects-0,
+select#edit-field-address-und-0-country,
+select#edit-field-address-und-0-administrative-area,
+select#edit-field-social-links-und-social-buttons-add-one-social {
+    border: 1px solid #ccc;
+    border-top-color: #999;
+    background: #fff;
+    color: #333;
+    background-color: #fcfcfc;
+    border: 2px solid #eaeaea;
+    color: #999999;
+    width: 100%;
+    min-height: 50px;
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+.node-business_page-form {
+  input#edit-preview {
+    margin: 0px 10px;
+}
+}
+
+.node-blogform input#edit-preview {
+    margin: 0px 10px;
+}
+
+.node-blog-form {
+  .form-actions {
+    .form-submit {
+      border: none;
+      color: #444;
+      padding: 18px 28px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 13px;
+      cursor: pointer;
+      background-color: #444;
+      color: white;
+      border-radius: 3px;
+      font-family: 'Exo 2';
+      text-transform: uppercase;
+    }
+  }
+}
+.node-business_page-form {
+  .form-submit {
+    border: none;
+    color: #444;
+    padding: 18px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: #444;
+    color: white;
+    border-radius: 3px;
+    font-family: 'Exo 2';
+    text-transform: uppercase;
+  }
+}
 footer.l-footer-wrapper {
   background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/footer.png");
   background-color: black;
@@ -159,8 +245,8 @@ input#edit-submit-search {
 }
 
 .l-region.l-region--navigation {
-    margin-left: 235px;
-    width: 55%;
+    margin-left: 220px;
+    width: 65%;
 }
 
 .form-text {
@@ -216,6 +302,108 @@ h1 {
 
 article.node.node--page.node--full.node--page--full {
     padding-bottom: 130px;
+}
+
+.logged-in,
+.page-homepage {
+  .l-page {
+    .l-main {
+      .panels-flexible-row-4-main-row {
+      background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/call1.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 480px;
+      margin: -36px -152px;
+    }
+  }
+}
+}
+
+.view.view-main-search.view-id-main_search.view-display-id-main_search_block {
+    background-color: #E1F3DA;
+    padding: 20px 0px;
+}
+
+.panel-pane.pane-views.pane-main-search {
+    margin-top: 315px;
+}
+
+.logged-in {
+  .panels-flexible-4 {
+    .pane-main-search {
+      h2.pane-title {
+        font-size: 40px;
+        margin-left: 465px;
+      }
+    }
+  }
+}
+
+.view-display-id-main_search_block {
+  .views-exposed-form {
+    .views-widget {
+      .form-item input{
+        font-size: 13px;
+        border: 1px solid #94cc7a;
+        padding: 4px 6px;
+        border-radius: 2px;
+        width: 180%;
+        margin-left: 220px;
+        min-height: auto;
+      }
+    }
+  }
+}
+
+.logged-in {
+  .panels-flexible-4 {
+    .pane-main-search {
+      .views-submit-button {
+          .form-submit {
+          margin-left: 615px;
+          margin-top: 0;
+          background-color: cadetblue;
+          border: none;
+          padding: 7px 7px;
+        }
+        }
+    }
+  }
+}
+
+.logged-in {
+  .panels-flexible-4 {
+    .pane-main-search {
+      .views-reset-button {
+          .form-submit {
+            margin-top: 5px;
+            background-color: #E1F3DA;
+            border: none;
+        }
+        }
+    }
+  }
+}
+
+.user-pass,
+.user-register-form,
+.user-login {
+    .form-actions {
+    .form-submit {
+      border: none;
+      color: #444;
+      padding: 18px 28px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 13px;
+      cursor: pointer;
+      background-color: #444;
+      color: white;
+      border-radius: 3px;
+      font-family: 'Exo 2';
+      text-transform: uppercase;
+    }
+  }
 }
 
 .not-logged-in {
