@@ -14,7 +14,9 @@ body {
     font-size: 14px;
     font-weight: 300;
 }
-
+.form-submit :hover {
+  color: red;
+}
   .l-header {
   background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/footer.png");
   background-color: black;
@@ -482,6 +484,22 @@ article.node.node--page.node--full.node--page--full {
     }
   }
 }
+
+.panels-flexible-column-last,
+.panels-flexible-column-first {
+  .panel-pane {
+    .user-register-form,
+    .user-login-form {
+      .form-actions {
+        .form-submit {
+        input :hover {
+          color: red;
+        }
+      }
+      }
+      }
+      }
+    }
 
 .panels-flexible-column-first {
   .panel-pane {
