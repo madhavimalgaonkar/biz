@@ -73,6 +73,22 @@ body {
   }
 }
 
+.l-footer-wrapper {
+  .social-media-links {
+    .youtube_channel img{
+      display: none;
+    }
+  }
+}
+
+.l-footer-wrapper {
+  .social-media-links {
+    .youtube_channel  {
+      background-image: url("/profiles/bizballoon/themes/custom/bizballoon_omega/images/icon-youtube.png");
+      background-repeat: no-repeat;
+    }
+  }
+}
 fieldset#edit-field-images-und,
 div#edit-field-logo-und-0-ajax-wrapper {
     border: 1px solid #EAEAEA;
@@ -191,6 +207,17 @@ footer.l-footer-wrapper {
       li.twitter,
       li.youtube_channel{
         padding: 25px;
+      }
+    }
+  }
+}
+
+.l-footer-wrapper {
+  .l-region {
+    .block {
+      li.youtube_channel.last {
+        margin-top: 23px;
+        margin-left: 30px;
       }
     }
   }
